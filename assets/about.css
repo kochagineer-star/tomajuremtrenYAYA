@@ -1,0 +1,68 @@
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fafafa;
+}
+
+/* 真ん中のシート */
+.main-sheet {
+  flex: 1;
+  background: #fff;
+  margin: 0 20px;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+}
+
+.main-sheet h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #000;
+}
+
+.site-header {
+  background: rgb(208,-39,-17);
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px auto;
+  gap: 40px;
+  max-width: 1000px;
+}
+
+.about-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+.about-text {
+  max-width: 600px;
+  font-size: 18px;
+  line-height: 1.8;
+  color: rgb(0, 0, 0);
+}
+
+/* ナビゲーションのリンク全般を白に */
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  margin: 0 10px;
+}
+
+/* ホバー時の色も変える（例：赤っぽく） */
+nav a:hover {
+  color: #ff3b3b;
+  transition: color 0.3s ease;
+}
