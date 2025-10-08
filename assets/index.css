@@ -141,3 +141,46 @@ nav a:hover {
   transition: color 0.3s ease;
 }
 
+/* ================================
+   スマホ対応（幅768px以下のとき）
+================================ */
+@media (max-width: 768px) {
+
+  /* 全体の余白調整 */
+  body {
+    padding: 10px;
+  }
+
+  /* レイアウトを縦並びに変更 */
+  .layout {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* サイドバーの幅調整 */
+  .sidebar {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+
+  /* メインシートも幅を広く */
+  .main-sheet {
+    width: 90%;
+    margin: 0;
+  }
+
+  /* プロフィール画像のサイズ調整 */
+  .profile-img {
+    width: 200px;
+    height: 200px;
+  }
+
+  /* ヘッダー文字が大きすぎる場合 */
+  .site-header {
+    font-size: 16px;
+    height: auto;
+    padding: 10px 0;
+  }
+}
+
+
