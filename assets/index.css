@@ -191,3 +191,15 @@ nav a:hover {
   display: block;
 }
 
+/* 📱 スマホサイズでカードの間に余白を追加 */
+@media screen and (max-width: 768px) {
+  section {
+    margin-bottom: 40px; /* 各セクションの下にスペースを追加 */
+  }
+
+  /* 特に真ん中の紹介カードと下のメニューの間を広げたい場合 */
+  .main-sheet {
+    margin-bottom: 60px; /* 真ん中カードの下を少し広めに */
+  }
+}
+
